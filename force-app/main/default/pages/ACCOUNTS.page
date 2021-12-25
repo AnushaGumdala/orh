@@ -1,0 +1,17 @@
+<apex:page controller="sobject_example_1">
+    <apex:form >
+        <apex:pageBlock title="Account">
+         <apex:pageBlocksection columns="1">
+              <apex:outputText value="{!acc.Name}" />
+              <apex:outputText value="{!acc.phone}" /> 
+            </apex:pageBlocksection>
+        </apex:pageBlock>
+        <apex:pageBlock title="contact">
+        <apex:pageBlocksection columns="1">
+             <apex:inputField value="{!con.name}" />
+             <apex:inputField value="{!con.firstName}" />
+             <apex:inputField value="{!con.lastName}" />
+       </apex:pageBlockSection>
+     </apex:pageBlock>                                    
+  </apex:form>                                                                       
+</apex:page>
